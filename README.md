@@ -1,4 +1,4 @@
-## Client-Music-React-Redux [Look](https://maksimdubovyi.github.io/React-app-that-displays-information-about-football-clubs/).
+## Client-Music-React-Redux [Look](https://musicsua.azurewebsites.net).
 - Разработать React-приложение, выводящее информацию о футбольных 
 - клубах. Информация о клубах хранится в массиве объектов. Для отображения 
 - информации необходимо использовать классовые компоненты. Первый 
