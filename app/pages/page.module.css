@@ -1,0 +1,131 @@
+
+/* -------------------------------updatePassword */
+.updatePasswordContainet {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.txt_updatePassword,.txt_Registration {
+
+    color: #fdfcff;
+    font-weight: bolder;
+    font-family: 'Domine', serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 10%;
+    text-shadow: 1px 1px 2px black,0 0 6px black,0 0 8px black;
+    font-style: italic;
+    box-shadow: 2px 0px 5px rgba(14,85,118);
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button_updatePassword,.button_Registration {
+    background-color: rgb(14,85,118);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px rgba(255, 255, 255);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 50%;
+    height: 55px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+.button_updatePassword,.button_Registration:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 4%, rgba(74, 73, 73, 1) 40%, rgba(88, 87, 87, 1) 60%, rgba(0, 0, 0, 1) 94%, rgba(246, 0, 0, 0) 165%, rgba(0, 0, 0, 0.9948354341736695) 165%);
+    box-shadow: 3px 4px 5px rgba(14,85,118);
+    text-shadow: 1px 1px 2px black, 0 0 1px rgba(14,85,118), 0 0 4px rgba(14,85,118);
+
+}
+
+.button_updatePassword,.button_Registration:active {
+    box-shadow: 3px 5px 5px rgb(16, 104, 145);
+}
+
+        @media (max-width: 400px) {
+    
+            .txt_updatePassword {
+                font-size: 15px;
+                margin-left: 5%;
+            }
+    
+            .button_updatePassword,.button_Registration {
+                height: 35px;
+                font-size: 15px;
+            }
+        }
+  /* -------------------------------------------------Registration   */
+.registrationContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* -------------------------------------------------------Authorization */
+
+.button_Authorization {
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px rgba(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.button_Authorization:hover {
+    box-shadow: 3px 4px 5px rgba(26, 255, 0);
+    text-shadow: 1px 1px 2px black, 0 0 1px rgba(26, 255, 0), 0 0 4px rgba(26, 255, 0);
+    font-size: 23px;
+
+}
+
+.button_Authorization:active {
+    box-shadow: 3px 5px 5px rgb(247, 31, 3);
+}
+
+/* -------------------------------------------------------MusicPage */
+
+
+.musicPageContainer
+{
+    display: flex;
+    margin-left: 5%;
+}
+
+.genreOption{
+    font-size: 22px;
+    background-color: #40899d;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .genreOption:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Стилі для виділеного варіанту в списку (залежить від стилів вашого додатка) */
+  .genreOption:checked {
+    background-color: #007bff;
+    color: #fff;
+  }

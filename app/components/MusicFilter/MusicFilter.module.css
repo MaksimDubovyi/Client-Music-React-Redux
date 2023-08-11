@@ -1,0 +1,40 @@
+.filterMainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.lable {
+    text-shadow: 1px 1px 2px black,0 0 6px black,0 0 8px black;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    box-shadow: 5px 4px 4px rgba(14,85,118);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+/* Стилі для елемента select */
+.selectWrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 70%;
+  }
+  
+  .selectWrapper select {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 8px 30px 8px 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+
+    /* appearance: none; Забираємо стандартну стрілку в селекті */
+  }
+  
+  .selectWrapper select:hover {
+    background-color:gray; /* Измените цвет фона при наведении */
+  }

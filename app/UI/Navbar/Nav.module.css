@@ -1,0 +1,138 @@
+
+.navMainHeadContainer{
+    display: flex;
+    justify-content: space-between; /* Распределяем элементы по краям контейнера */
+    align-items: center; /* Выравниваем элементы по вертикали по центру */
+    flex-wrap: wrap ;
+    margin-bottom: 5%;
+}
+
+
+.navHeadContainer{
+    display: flex;
+    flex-wrap: wrap ;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content:center;
+    align-items: stretch ;
+    border-radius:8px;
+    box-shadow: inset 3px 2px 2px rgba(14,85,118);
+    border: 1px solid rgba(14,85,118);
+    margin: 1% 7%;
+   
+    background: none;
+}
+.navChild
+{
+    align-self:center;
+    margin-left: 5%;
+}
+
+.txtMenu,.txtMenuHi{
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 15px;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+    border: solid 1px white;
+}
+.txtMenu:hover:hover {
+    border: solid 1px rgba(14,85,118);
+    box-shadow: 1px 2px 1px rgba(255,255,255);
+    text-shadow: 1px 1px 2px rgba(14,85,118),0 0 1px rgb(14,85,118),0 0 4px rgba(14,85,118);
+}
+.txtMenu:active:active{ box-shadow: 1px 4px 1px rgba(14,85,118);}
+
+.txtMenuHi{
+    border:none;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border:solid 3px rgb(0, 123, 255);
+  } 
+
+
+.blockAvatar
+{   align-self:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    width: 120px;
+    cursor: pointer;
+    margin: 1% 7%;
+}
+.avatar:active{
+    border-radius: 15px;
+    border:solid 3px rgba(14,85,118);
+}
+.blockAvatar:active
+{
+    border:solid 3px rgba(14,85,118);
+    border-radius: 15px;  
+}
+
+
+.containerAdminNavbar
+{
+display: flex;
+flex-direction: column;
+}
+.itemAdminNavbar{
+    border-radius: 8px;
+    border: inset 2px rgb(5, 65, 104);
+    margin-bottom: 5%;
+    box-shadow: inset 5px 4px 4px rgba(14,85,118);
+    width: 80%;
+}
+
+.txtAdminNavbar{
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black,0 0 6px black,0 0 8px black;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.itemAdminNavbar:hover{
+    border-radius: 8px;
+    border: solid 2px rgb(251, 254, 255);
+    margin-bottom: 5%;
+    box-shadow:  2px 2px 0px rgb(251, 254, 255);
+}
+
+.btnAdminNavbar{
+    border-radius: 8px;
+    background-color: brown;
+    border: inset 2px rgb(50, 3, 3);
+    margin-top: 20%;
+    margin-bottom: 5%;
+    box-shadow:5px 4px 4px rgb(75, 0, 0);
+    width: 80%;
+    text-shadow: 1px 1px 2px black,0 0 6px black,0 0 8px black;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.btnAdminNavbar:hover{
+    box-shadow:inset 5px 4px 4px rgb(75, 0, 0);
+    text-shadow: 1px 1px 2px black,0 0 6px black,0 0 8px black;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+@media (min-width: 400px) and (max-width: 1350px) {
+    .itemAdminNavbar, .btnAdminNavbar{width: 100%;}
+    .btnAdminNavbar,.txtAdminNavbar{font-size: 18px;}
+   
+}

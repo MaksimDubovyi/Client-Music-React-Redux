@@ -1,0 +1,95 @@
+.mainCustomAudioBtnPlayPauseContainer
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+.customAudioBtnPlayPauseContainer{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+/* .str1:hover {
+    box-shadow: inset 0px -3px 10px rgba(21,48,55);
+} */
+.mp3 {
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.mp3:hover{
+    box-shadow: inset -2px 0px 3px rgb(0, 133, 250);
+}
+audio::-webkit-media-controls-panel {
+    border-radius:none;
+
+    background: rgb(21,48,55);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 9.5%, rgba(74,73,73,1) 40%, rgba(88,87,87,1) 55%, rgba(0,0,0,1) 85%, rgba(21,48,55) 95%, rgba(0,0,0,1));
+}
+ audio::-webkit-media-controls {  display: flex; align-items: center; justify-content: center;  }
+ audio::-webkit-media-controls-play-button {
+        display: none ;
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        margin: 0 10px;
+    }
+
+
+audio::-webkit-media-controls-play-button:hover { margin: 0 12px;}
+audio::-webkit-media-controls-mute-button {
+    background-image: url('/jpg/volume.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    margin-top:3px;
+}
+audio::-webkit-media-controls-volume-slider {
+    width: 80px;
+    background-image: url('/jpg/volume2.png');
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: rgb(81, 186, 212);
+    font-size: 14px;
+}
+audio::-webkit-media-controls-mute-button:hover {
+        background-image: url('/jpg/volume1.png');
+        background-size: cover;
+    }
+
+
+    .mp3_headTxt {
+        max-width: 100px;
+        min-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-shadow:  2px 2px 1px rgb(0, 0, 0);
+        color: rgb(14,85,118);
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .mp3_table{
+        margin-top: 2%;
+
+      }
+
+    .btnPlayPause{
+        width: 50px;
+    }
+    .btnPP{
+
+        margin-left: 2%;
+        background-color: transparent;
+        border: none;
+    }
